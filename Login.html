@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <script src="https://kit.fontawesome.com/2bb0aa2619.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?amily=Ubuntu&display=swap" 
+    rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <title>Login</title>
+</head>
+<link src="./script.js" defer>
+<body>
+    <div class="container">
+        <div class="login-header">
+            <h1>Login</h1>
+            <h3>Login to your account</h3>
+        </div>
+
+        <div class="login-form">
+            <div class="login-item"> 
+                <label class="items" for="email">Enter the email</label>
+                <input type="email" name="Email" id="input" 
+                placeholder="Enter you email"
+                required> 
+            </div>
+
+            <div class="login-item">
+                <label class="items" for="password">Enter the password</label>
+                <input type="password" name="Password" id="input" 
+                 placeholder="Enter your password" 
+                required>
+            </div> 
+
+            <div class="login-item">
+                <div class="checkbox">
+                    <label class="checklabel" for="rememberMeCheck" id="Checklabel">Remember Me</label>
+                    <input class="check" type="checkbox" 
+                    id="rememberMeCheck">
+                </div>
+                <button id="button" class="submit" type="submit">Sign In</button>
+            </div>
+        </div>
+
+        <span>-or-</span>
+
+        <div class="login-footer">
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+</body>
+</html>

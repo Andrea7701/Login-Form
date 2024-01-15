@@ -1,0 +1,160 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+    align-items: center;
+
+}
+
+:root{
+
+    --color-text: blueviolet;
+    --font-family: 'Ubuntu', sans-serif;;
+    --text-size: 18px;
+}
+
+body, html{
+
+    background: linear-gradient(120deg, pink, lightblue);
+    height: 100vh;
+    font-size: var(--text-size);
+    font-family: var(--font-family);
+    text-align: center;
+   
+}
+
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 1em;
+    top: 5em;
+    border-radius: 2em;
+    border: 1px solid;
+    background: linear-gradient(60deg, lightblue, pink);
+}
+
+@media (max-width: 900px){
+    .container{
+
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        top: 3.5em;
+        padding: 0;
+
+    }
+    
+}
+
+
+
+
+.login-header, h3{
+
+    margin: 0.25em;
+    padding: 0.25em;
+    color: var(--color-text);
+
+}
+
+.login-form{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1em;
+    padding: 0.25em;
+
+
+}
+
+.login-item, input{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.25em;
+    padding: 0.5em;
+    
+    color: var(--color-text);
+
+}
+
+input, .items{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0.25em;
+    border-radius: 0.6em;
+    padding: 0.5em;   
+    align-items: left;
+
+}
+
+.checkbox, .checklabel{
+
+    display: flex;
+    flex-direction: row;
+    margin: 0.2em;
+    width: 100%;
+    padding: 0.25em;
+    align-items: center;
+
+}
+
+
+.submit{
+
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 90%;
+    border-radius: 0.75em;
+    border: none;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+
+}
+
+.submit:hover{
+
+    transform: scale(1.1);
+
+}
+
+.login-footer, i{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.25em;
+    margin: 0.1em;
+    font-size: 40px;
+    
+}
+
+span{
+
+    position: relative;
+    text-align: center;
+
+}
+
+i:hover{
+
+    transform: scale(1.05);
+    color: cornflowerblue;
+}
+
+
+
+
