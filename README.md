@@ -2,10 +2,6 @@
 
 An only style login form built with html and css
 
-# Screenshoot
-
-
-
 # Built With 
  - HTML;
  - Css;
